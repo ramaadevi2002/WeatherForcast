@@ -54,6 +54,7 @@ public class GetForcast {
         String longitude = scanner.next();
         coordinates.append(",").append(longitude);
 
+        //the corordinates have to be validated before coverting into a string
         return coordinates.toString();
 
     }
